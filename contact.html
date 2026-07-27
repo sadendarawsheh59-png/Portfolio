@@ -53,6 +53,7 @@
         }
         input[type="text"],
         input[type="email"],
+        input[type="tel"],
         select,
         textarea {
             width: 100%;
@@ -100,6 +101,11 @@
             </div>
 
             <div class="form-field">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="e.g. 0781666816">
+            </div>
+
+            <div class="form-field">
                 <label for="country">Country:</label>
                 <select id="country">
                     <option value="">-- Choose Country --</option>
@@ -125,10 +131,11 @@
 
             var name = document.getElementById('fullName').value;
             var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
             var country = document.getElementById('country').value;
             var comments = document.getElementById('comments').value;
 
-            if (name == "" || email == "" || country == "" || comments == "") {
+            if (name == "" || email == "" || phone == "" || country == "" || comments == "") {
                 alert("Please fill in all fields before submitting!");
                 return false;
             }

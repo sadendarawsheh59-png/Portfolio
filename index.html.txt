@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- عنوان الصفحة يحتوي على الرقم الجامعي والاسم -->
+    <title>300000 - Saden Darawsheh</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #2c3e50;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #16a085;
+            text-decoration: underline;
+        }
+        .main-container {
+            width: 80%;
+            max-width: 850px;
+            margin: 25px auto;
+            background: #ffffff;
+            padding: 25px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+        }
+        .header-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 2px solid #2c3e50;
+        }
+        .profile-info h1 {
+            margin: 0 0 8px 0;
+            color: #2c3e50;
+        }
+        .profile-info p {
+            margin: 4px 0;
+            font-size: 15px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 25px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table, th, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: #ffffff;
+        }
+        .btn-email {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 14px;
+            background-color: #16a085;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .btn-email:hover {
+            background-color: #117a65;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="contact.html">Contact Me</a>
+    </nav>
+
+    <div class="main-container">
+
+        <div class="header-section">
+            <img src="profile.jpg" alt="Saden Darawsheh" class="profile-img">
+            <div class="profile-info">
+                <h1>Saden Darawsheh</h1>
+                <p><strong>Major:</strong> Data Science</p>
+                <p><strong>Academic Level:</strong> Fourth Year</p>
+                <!-- استبدل username بـ username إيميلك الجامعي -->
+                <a href="mailto:username@cit.just.edu.jo" class="btn-email">Email Me Directly</a>
+            </div>
+        </div>
+
+        <h2>Key Soft Skills</h2>
+        <ul>
+            <li>Analytical Thinking & Problem Solving</li>
+            <li>Teamwork and Group Collaboration</li>
+            <li>Adaptability in fast-paced environments</li>
+            <li>Technical Communication</li>
+            <li>Time Management</li>
+        </ul>
+
+        <h2>Favorite Tools & Programming Languages</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Tool / Language</th>
+                    <th>External Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Programming Language</td>
+                    <td>Python</td>
+                    <td><a href="https://www.python.org" target="_blank">python.org</a></td>
+                </tr>
+                <tr>
+                    <td>Cybersecurity Tool</td>
+                    <td>Wireshark</td>
+                    <td><a href="https://www.wireshark.org" target="_blank">wireshark.org</a></td>
+                </tr>
+                <tr>
+                    <td>Penetration Testing</td>
+                    <td>Kali Linux</td>
+                    <td><a href="https://www.kali.org" target="_blank">kali.org</a></td>
+                </tr>
+                <tr>
+                    <td>Backend Environment</td>
+                    <td>Node.js</td>
+                    <td><a href="https://nodejs.org" target="_blank">nodejs.org</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Where Do I See Myself in 4 Years?</h2>
+        <p>
+            In four years, I see myself working as a cybersecurity specialist focusing on penetration testing and system security. Since I study Data Science at JUST, I want to combine my background in data analysis with practical threat intelligence to build safer network systems. My primary goal is to earn recognized industry certifications such as the OSCP and Security+ to improve my hands-on hacking skills. I also plan to contribute to enterprise security projects and gain real-world experience in digital forensics. Eventually, I hope to start my postgraduate studies and pursue a master's degree in cybersecurity.
+        </p>
+
+    </div>
+
+</body>
+</html>
